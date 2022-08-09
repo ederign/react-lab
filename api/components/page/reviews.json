@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_page_reviews",
+  "info": {
+    "name": "reviews",
+    "icon": "star-of-david"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "review": {
+      "type": "text"
+    },
+    "photo": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    }
+  }
+}

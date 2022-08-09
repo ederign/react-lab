@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_page_questions",
+  "info": {
+    "name": "questions",
+    "icon": "question"
+  },
+  "options": {},
+  "attributes": {
+    "question": {
+      "type": "text"
+    },
+    "answer": {
+      "type": "richtext"
+    }
+  }
+}
