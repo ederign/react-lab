@@ -2,15 +2,17 @@
   "collectionName": "components_page_reviews",
   "info": {
     "name": "reviews",
-    "icon": "star-of-david"
+    "icon": "star-half-alt"
   },
   "options": {},
   "attributes": {
     "name": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
-    "review": {
-      "type": "text"
+    "text": {
+      "type": "text",
+      "required": true
     },
     "photo": {
       "model": "file",
@@ -19,8 +21,7 @@
         "images"
       ],
       "plugin": "upload",
-      "required": false,
-      "pluginOptions": {}
+      "required": false
     }
   }
 }

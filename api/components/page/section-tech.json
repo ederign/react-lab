@@ -2,8 +2,7 @@
   "collectionName": "components_page_section_teches",
   "info": {
     "name": "sectionTech",
-    "icon": "toolbox",
-    "description": ""
+    "icon": "toolbox"
   },
   "options": {},
   "attributes": {

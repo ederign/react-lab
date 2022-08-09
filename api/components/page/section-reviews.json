@@ -7,12 +7,15 @@
   "options": {},
   "attributes": {
     "title": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "reviews": {
       "type": "component",
       "repeatable": true,
-      "component": "page.reviews"
+      "component": "page.reviews",
+      "required": true,
+      "min": 4
     }
   }
 }

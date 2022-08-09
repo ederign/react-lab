@@ -1,5 +1,5 @@
 {
-  "name": "api",
+  "name": "reactavancado-api",
   "private": true,
   "version": "0.1.0",
   "description": "A Strapi application",
@@ -11,29 +11,29 @@
   },
   "devDependencies": {},
   "dependencies": {
-    "knex": "0.21.18",
-    "pg": "8.5.1",
-    "strapi": "3.6.8",
-    "strapi-admin": "3.6.8",
-    "strapi-connector-bookshelf": "3.6.8",
-    "strapi-plugin-ckeditor5": "1.14.0",
-    "strapi-plugin-content-manager": "3.6.8",
-    "strapi-plugin-content-type-builder": "3.6.8",
-    "strapi-plugin-email": "3.6.8",
-    "strapi-plugin-i18n": "3.6.8",
-    "strapi-plugin-upload": "3.6.8",
-    "strapi-plugin-users-permissions": "3.6.8",
-    "strapi-utils": "3.6.8"
+    "@ckeditor/ckeditor5-build-classic": "^20.0.0",
+    "@ckeditor/ckeditor5-react": "^2.1.0",
+    "knex": "<0.20.0",
+    "pg": "latest",
+    "strapi": "3.0.6",
+    "strapi-admin": "3.0.6",
+    "strapi-connector-bookshelf": "3.0.6",
+    "strapi-plugin-content-manager": "3.0.6",
+    "strapi-plugin-content-type-builder": "3.0.6",
+    "strapi-plugin-email": "3.0.6",
+    "strapi-plugin-upload": "3.0.6",
+    "strapi-plugin-users-permissions": "3.0.6",
+    "strapi-utils": "3.0.6"
   },
   "author": {
     "name": "A Strapi developer"
   },
   "strapi": {
-    "uuid": "1d3185b9-4cdc-4835-8b3e-fc0d8eeb4220"
+    "uuid": "f69347f0-870c-42eb-86bc-bb463de4a954"
   },
   "engines": {
-    "node": ">=10.16.0 <=14.x.x",
-    "npm": "^6.0.0"
+    "node": ">=10.0.0",
+    "npm": ">=6.0.0"
   },
   "license": "MIT"
 }

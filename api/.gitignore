@@ -45,7 +45,6 @@ $RECYCLE.BIN/
 *.jar
 *.rar
 *.tar
-*.zip
 *.com
 *.class
 *.dll
@@ -95,6 +94,7 @@ results
 node_modules
 .node_history
 
+
 ############################
 # Tests
 ############################
@@ -107,8 +107,12 @@ coverage
 ############################
 
 .env
-license.txt
 exports
-*.cache
+.cache
 build
-.strapi-updater.json
+
+############################
+# Misc
+############################
+
+.vscode

@@ -2,8 +2,7 @@
   "collectionName": "components_page_social_links",
   "info": {
     "name": "socialLinks",
-    "icon": "network-wired",
-    "description": ""
+    "icon": "network-wired"
   },
   "options": {},
   "attributes": {
@@ -20,10 +19,8 @@
       "required": true
     },
     "url": {
-      "type": "string"
-    },
-    "description": {
-      "type": "text"
+      "type": "string",
+      "required": true
     }
   }
 }

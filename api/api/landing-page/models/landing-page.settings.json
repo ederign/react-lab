@@ -2,15 +2,12 @@
   "kind": "singleType",
   "collectionName": "landing_pages",
   "info": {
-    "name": "landingPage",
-    "description": ""
+    "name": "landingPage"
   },
   "options": {
     "increments": true,
-    "timestamps": true,
-    "draftAndPublish": true
+    "timestamps": true
   },
-  "pluginOptions": {},
   "attributes": {
     "logo": {
       "model": "file",
@@ -19,8 +16,7 @@
         "images"
       ],
       "plugin": "upload",
-      "required": true,
-      "pluginOptions": {}
+      "required": true
     },
     "header": {
       "type": "component",
@@ -45,7 +41,8 @@
     "sectionModules": {
       "type": "component",
       "repeatable": false,
-      "component": "page.section-modules"
+      "component": "page.section-modules",
+      "required": true
     },
     "sectionAgenda": {
       "type": "component",
